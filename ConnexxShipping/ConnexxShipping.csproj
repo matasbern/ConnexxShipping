@@ -3,15 +3,20 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageId>ConnexShipping</PackageId>
-		<Version>1.0.0</Version>
+		<PackageId>ConnexxShipping</PackageId>
+		<Version>1.0.1</Version>
 		<Authors>matasbern</Authors>
-		<PackageDescription>ConnextShipping is a .NET Wrapper for ITD Global API</PackageDescription>
-		<RepositoryUrl>https://github.com/matasbern/ConnexShipping</RepositoryUrl>
+		<PackageDescription>ConnexxShipping is a .NET Wrapper for ITD Global API</PackageDescription>
+		<RepositoryUrl>https://github.com/matasbern/ConnexxShipping</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<PackageTags>ConnexxShipping, ITD Global, Shipping, API</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="System.Text.Json" Version="9.0.3" />
+		<None Include="README.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 
 </Project>
